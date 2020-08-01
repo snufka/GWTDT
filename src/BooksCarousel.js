@@ -9,13 +9,18 @@ export default function BooksCarousel() {
         className="carousel slide"
         data-ride="carousel"
       >
-        {bookDB.map(({ title, id, img }) => (
-          <div className="carousel-inner">
+        <div className="carousel-inner">
+          {bookDB.map(({ title, id, img }) => (
             <div className="carousel-item active">
-              <img src={img} className="d-block w-100" alt={title}></img>
+              <img
+                key={id}
+                src={img}
+                className="d-block w-100"
+                alt={title}
+              ></img>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
         <a
           className="carousel-control-prev"
           href="#carouselExampleControls"
@@ -44,3 +49,19 @@ export default function BooksCarousel() {
     </>
   );
 }
+
+/*{bookDB.map(({ title, id, img }) => (
+          <div className="carousel-inner">
+            <div className="carousel-item active">
+              <img src={img} className="d-block w-100" alt={title}></img>
+            </div>
+          </div>
+        ))}*/
+
+/*<div className="carousel-item active">
+            <img
+              src="https://images-na.ssl-images-amazon.com/images/I/81UhKOBDrCL.jpg"
+              className="d-block w-100"
+              alt="the girl with the dragon tattoo"
+            ></img>
+          </div>*/
