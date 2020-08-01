@@ -1,0 +1,28 @@
+.hometext {
+    padding: 8%;
+    color: #156dbe;
+    text-align: center;
+    line-height: 1.4em;
+}
+
+.moreabout {
+    color: #156dbe;
+    background-color: #f7eb06;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+/*font-weight: 200;
+display: block;
+ font-family: Helvetica, Arial, sans-serif;
+    font-size: 60px;
+    letter-spacing: 0px;
+    line-height: 1.2em;
+    font-family: "azo-sans";
+    font-size: 27px;
+    line-height: 1.5em;
+    text-transform: none;
+    letter-spacing: -.02em;
+    font-weight: 700;
+    font-style: normal;*/
