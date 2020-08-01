@@ -1,5 +1,6 @@
 import React from "react";
 import hometext from "./homeText.css";
+import BooksCarousel from "./BooksCarousel";
 
 export default function Hero() {
   return (
@@ -51,6 +52,7 @@ export default function Hero() {
               independent researcher of right-wing extremism.
             </em>
           </p>
+          <BooksCarousel />
         </div>
       </div>
     </div>
