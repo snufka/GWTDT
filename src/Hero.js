@@ -14,17 +14,18 @@ export default function Hero() {
           ></img>
         </div>
         <div className="col-sm-5">
+          <h1 className="display-1 hometext" style={{ textAlign: "center" }}>
+            Stieg Larsson
+          </h1>
           <h3 className="hometext">
             Karl Stig-Erland "Stieg" Larsson was a Swedish journalist and
             writer. He is best known for writing the Millennium trilogy of crime
             novels, which were published posthumously, starting in 2005, after
             the author died suddenly of a heart attack. The trilogy was adapted
-            as three motion pictures in Sweden, and one in the U.S. (for the
-            first book only). The publisher commissioned David Lagercrantz to
-            expand the trilogy into a longer series, which has six novels as of
-            September 2019. For much of his life, Larsson lived and worked in
-            Stockholm. His journalistic work covered socialist politics and he
-            acted as an independent researcher of right-wing extremism.
+            as three motion pictures in Sweden, and one in the U.S. For much of
+            his life, Larsson lived and worked in Stockholm. His journalistic
+            work covered socialist politics and he acted as an independent
+            researcher of right-wing extremism.
           </h3>
           <p className="moreabout">More about Stieg</p>
           <p style={{ textAlign: "center" }}>
