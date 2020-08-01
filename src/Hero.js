@@ -1,6 +1,7 @@
 import React from "react";
 import hometext from "./homeText.css";
 import BooksCarousel from "./BooksCarousel";
+import ArrowDown from "./img/arrowdown.jpg";
 
 export default function Hero() {
   return (
@@ -27,7 +28,13 @@ export default function Hero() {
             work covered socialist politics and he acted as an independent
             researcher of right-wing extremism.
           </h3>
-          <p className="moreabout">More about Stieg</p>
+          <div style={{ textAlign: "center" }}>
+            <p className="moreabout">More about Stieg</p>
+          </div>
+          <div style={{ textAlign: "center" }}>
+            <img src={ArrowDown} alt="arrow"></img>
+          </div>
+
           <p style={{ textAlign: "center" }}>
             <em>
               Karl Stig-Erland "Stieg" Larsson was a Swedish journalist and
