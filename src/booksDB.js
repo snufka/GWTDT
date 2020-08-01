@@ -21,3 +21,5 @@ const booksData = [
     img: "https://images-na.ssl-images-amazon.com/images/I/81kP8NZxm+L.jpg",
   },
 ];
+
+export default booksData;
