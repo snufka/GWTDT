@@ -13,6 +13,13 @@
     display: inline-block;
 }
 
+.heroImage {
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
 /*font-weight: 200;
 display: block;
  font-family: Helvetica, Arial, sans-serif;

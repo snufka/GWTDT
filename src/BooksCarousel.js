@@ -22,9 +22,9 @@ export default function BooksCarousel() {
           <div className="carousel-inner">
             <div className="carousel-item active">
               <img
-                src="https://cdn.stocksnap.io/img-thumbs/960w/enchanting-forest_1CFKSWRR5X.jpg"
+                src="https://images-na.ssl-images-amazon.com/images/I/81UhKOBDrCL.jpg"
                 className="d-block w-100"
-                alt="..."
+                alt="the girl with the dragon tattoo"
               ></img>
               <div className="carousel-caption d-none d-md-block">
                 <h5>First slide label</h5>
@@ -36,9 +36,9 @@ export default function BooksCarousel() {
 
             <div className="carousel-item">
               <img
-                src="https://cdn.stocksnap.io/img-thumbs/960w/enchanting-forest_1CFKSWRR5X.jpg"
+                src="https://images-na.ssl-images-amazon.com/images/I/A12eoRmZtsL.jpg"
                 className="d-block w-100"
-                alt="..."
+                alt="the girl who played with fire"
               ></img>
               <div className="carousel-caption d-none d-md-block">
                 <h5>Second slide label</h5>
@@ -48,9 +48,9 @@ export default function BooksCarousel() {
 
             <div className="carousel-item">
               <img
-                src="https://cdn.stocksnap.io/img-thumbs/960w/enchanting-forest_1CFKSWRR5X.jpg"
+                src="https://images-na.ssl-images-amazon.com/images/I/81kP8NZxm+L.jpg"
                 className="d-block w-100"
-                alt="..."
+                alt="the girl who kicked the honrnets nest"
               ></img>
               <div className="carousel-caption d-none d-md-block">
                 <h5>Third slide label</h5>
