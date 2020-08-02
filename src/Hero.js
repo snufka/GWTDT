@@ -7,14 +7,14 @@ export default function Hero() {
   return (
     <div>
       <div className="row">
-        <div className="col-sm-7">
+        <div className="col-sm-6">
           <img
             className="heroImage"
             src="https://lachatupdate.files.wordpress.com/2015/08/stieg-larsson_36141.jpg"
             alt="Stieg Larsson"
           ></img>
         </div>
-        <div className="col-sm-5">
+        <div className="col-sm-6">
           <h1 className="display-1 hometext" style={{ textAlign: "center" }}>
             Stieg Larsson
           </h1>

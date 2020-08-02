@@ -4,47 +4,26 @@ import bookDB from "./booksDB";
 export default function BooksCarousel() {
   return (
     <>
-      <div
-        id="carouselExampleControls"
-        className="carousel slide"
-        data-ride="carousel"
-      >
-        <div className="carousel-inner">
-          {bookDB.map(({ title, id, img }) => (
-            <div className="carousel-item active">
+      <div>
+        <div>
+          {bookDB.map(({ title, id, img, discription }) => (
+            <div className="card" style={{ width: "18rem" }}>
               <img
                 key={id}
                 src={img}
-                className="d-block w-100"
+                className="card-img-top"
                 alt={title}
               ></img>
+              <div className="card-body">
+                <h5 className="card-title">{title}</h5>
+                <p className="card-text">{discription}</p>
+                <a href="#" className="btn btn-primary">
+                  Go somewhere
+                </a>
+              </div>
             </div>
           ))}
         </div>
-        <a
-          className="carousel-control-prev"
-          href="#carouselExampleControls"
-          role="button"
-          data-slide="prev"
-        >
-          <span
-            className="carousel-control-prev-icon"
-            aria-hidden="true"
-          ></span>
-          <span className="sr-only">Previous</span>
-        </a>
-        <a
-          className="carousel-control-next"
-          href="#carouselExampleControls"
-          role="button"
-          data-slide="next"
-        >
-          <span
-            className="carousel-control-next-icon"
-            aria-hidden="true"
-          ></span>
-          <span className="sr-only">Next</span>
-        </a>
       </div>
     </>
   );
