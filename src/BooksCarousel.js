@@ -6,7 +6,7 @@ export default function BooksCarousel() {
     <>
       <div className="row">
         {bookDB.map(({ title, id, img, discription }) => (
-          <div className="col-sm-3" key={id}>
+          <div className="col-sm-4" key={id}>
             <div className="card">
               <img src={img} className="card-img-top" alt={title}></img>
               <div className="card-body">
