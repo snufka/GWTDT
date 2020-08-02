@@ -2,6 +2,7 @@ import React from "react";
 import hometext from "./homeText.css";
 import BooksCarousel from "./BooksCarousel";
 import ArrowDown from "./img/arrowdown.jpg";
+import NavBar from "./NavBar";
 
 export default function Hero() {
   return (
@@ -15,6 +16,7 @@ export default function Hero() {
           ></img>
         </div>
         <div className="col-sm-6">
+          <NavBar />
           <h1 className="display-1 hometext" style={{ textAlign: "center" }}>
             Stieg Larsson
           </h1>
@@ -29,7 +31,7 @@ export default function Hero() {
             researcher of right-wing extremism.
           </h3>
           <div style={{ textAlign: "center" }}>
-            <p className="moreabout">More about Stieg</p>
+            <p className="moreabout"> More about Stieg </p>
           </div>
           <div style={{ textAlign: "center" }}>
             <img src={ArrowDown} alt="arrow"></img>
