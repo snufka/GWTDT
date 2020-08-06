@@ -2,6 +2,7 @@ import React from "react";
 import hometext from "./homeText.css";
 import BooksCarousel from "./BooksCarousel";
 import ArrowDown from "./img/arrowdown.jpg";
+import MovieAdaptations from "./MovieAdaptations.js";
 
 export default function Hero() {
   return (
@@ -52,6 +53,7 @@ export default function Hero() {
           </p>
           <h4 className="hometext">Millennium Trilogy Collection</h4>
           <BooksCarousel />
+          <MovieAdaptations />
         </div>
       </div>
     </div>
