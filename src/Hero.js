@@ -2,7 +2,6 @@ import React from "react";
 import hometext from "./homeText.css";
 import BooksCarousel from "./BooksCarousel";
 import ArrowDown from "./img/arrowdown.jpg";
-import NavBar from "./NavBar";
 
 export default function Hero() {
   return (
@@ -16,7 +15,6 @@ export default function Hero() {
           ></img>
         </div>
         <div className="col-sm-6">
-          <NavBar />
           <h1 className="display-1 hometext" style={{ textAlign: "center" }}>
             Stieg Larsson
           </h1>
