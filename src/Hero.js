@@ -16,10 +16,10 @@ export default function Hero() {
           ></img>
         </div>
         <div className="col-sm-6">
-          <h1 className="display-1 hometext" style={{ textAlign: "center" }}>
+          <h1 className="display-2 hometext" style={{ textAlign: "center" }}>
             Stieg Larsson
           </h1>
-          <h3 className="hometext">
+          <h4 className="hometext">
             Karl Stig-Erland "Stieg" Larsson was a Swedish journalist and
             writer. He is best known for writing the Millennium trilogy of crime
             novels, which were published posthumously, starting in 2005, after
@@ -28,7 +28,7 @@ export default function Hero() {
             his life, Larsson lived and worked in Stockholm. His journalistic
             work covered socialist politics and he acted as an independent
             researcher of right-wing extremism.
-          </h3>
+          </h4>
           <div style={{ textAlign: "center" }}>
             <p className="moreabout"> More about Stieg </p>
           </div>

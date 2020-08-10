@@ -23,7 +23,7 @@ export default function MovieAdaptations() {
               <div className="card">
                 <img src={img} className="card-img-top" alt={title}></img>
                 <div className="card-body">
-                  <h5 className="card-title">{title}</h5>
+                  <h5 className="card-title moreabout">{title}</h5>
                   <p className="card-text">{description}</p>
                   <p>Cast: {cast}</p>
                   <p>Director: {director}</p>
