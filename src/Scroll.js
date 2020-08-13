@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import BookSearch from "./BooksSearch";
+import useBookSearch from "./useBooksSearch";
 
 export default function Scroll() {
   const [query, setQuery] = useState("");
@@ -9,17 +9,15 @@ export default function Scroll() {
     setQuery(e.target.value);
     setPageNumber(1);
   }
-
-  BookSearch(query, pageNumber);
+  const { loading, error, books, hasMore } = useBookSearch(query, pageNumber);
   return (
     <div>
       <input type="text" onChange={handleSearch}></input>
-      <div>title</div>
-      <div>title</div>
-      <div>title</div>
-      <div>Loading...</div>
-
-      <div>Error</div>
+      {books.map((book) => {
+        return <div key={book}>{book}</div>;
+      })}
+      <div>{loading && "Loading..."}</div>
+      <div>{error && "error..."}</div>
     </div>
   );
 }
