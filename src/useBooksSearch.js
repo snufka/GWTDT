@@ -7,11 +7,14 @@ export default function useBooksSearch(query, pageNumber) {
   const [books, setBooks] = useState([]);
   const [hasMore, setHasMore] = useState(false);
 
-  let cancel;
+  useEffect(() => {
+    setBooks([]);
+  }, [query]);
+
   useEffect(() => {
     setLoading(true);
     setError(false);
-
+    let cancel;
     axios({
       method: "GET",
       url: "http://openlibrary.org/search.json",

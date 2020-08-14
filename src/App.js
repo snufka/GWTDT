@@ -5,8 +5,8 @@ import Scroll from "./Scroll";
 function App() {
   return (
     <>
-      <Scroll />
       <Hero />
+      <Scroll />
     </>
   );
 }
