@@ -1,4 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+deployed at https://stieg-larsson-fan-website.netlify.app/
 
 ## Available Scripts
 
